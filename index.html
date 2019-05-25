@@ -7,82 +7,137 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Caseys Portfolio</title>
     <!-- Basic-Portfolio stylesheet below -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
 
 
 <body>
+
+    <nav class="navbar-expand-md">
+        <!-- <a class="navbar-brand"></a> -->
+
+        <div class="container">
+            <span class="navbar-text">Casey Carroll</span>
+            <button class="navbar toggler" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar collapse" id="collapse_target"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
     <div class="container">
         <!--or "container_fluid". container puts padding around everything, container-fluid does not -->
-        <div class="page-header">
-            <h1>Casey Carroll</h1>
-        </div>
-
+        ÷
+        <!-- 
         <div class="jumbotron">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, atcursusipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan,
+                atcursusipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi.</p>
 
             <p>
                 <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
 
                 <button type="submit" class="btn btn-danger" role="button">Button</button>
+                <input type="button" value="Info" class="btn btn-info">
+
+                <button type="submit" class="btn-primary btn-sm">btn-primary </button>
+                <button type="submit" class="btn btn-success btn-xs">Success</button>
+                <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+                <button type="submit" class="btn btn-link btn-lg">Link</button>
+
+                <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+                <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+
+                <div class="btn-group-lg" role="group">
+
+                    <button type="button" class="btn btn default">Small</button>
+                    <button type="button" class="btn btn default">Medium</button>
+                    <button type="button" class="btn btn default">Large</button>
+                </div>
             </p>
 
-        </div>
+        </div> -->
 
-    </div>
-    <header>
-        <div class="main">
-            <div id="name">
-                Casey Carroll
+
+        <!-- <header>
+            <div class="main">
+                <div id="name">
+                    Casey Carroll
+                </div>
+                <div id="links">
+                    <div id="about">
+                        <a href="index.html">About</a>
+                    </div>
+                    <div class="spacing">
+                    </div>
+                    <div id="portfolio">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="spacing">
+                    </div>
+                    <div id="contact">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
-            <div id="links">
-                <div id="about">
-                    <a href="index.html">About</a>
-                </div>
-                <div class="spacing">
-                </div>
-                <div id="portfolio">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div class="spacing">
-                </div>
-                <div id="contact">
-                    <a href="contact.html">Contact</a>
-                </div>
+        </header> -->
+        <div class="container" id="two">
+            <div id="lower">
+                About Me
             </div>
+            <div id="lower-spacer">
+            </div>
+            <img src="assets/images/ProfilePhoto.png" width="206" height="214" alt="My Headshot">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, at
+                cursus
+                ipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi. Phasellus
+                aliquam
+                vitae nisi et porta. Aliquam quis tincidunt ante. Etiam scelerisque sapien in metus rutrum vestibulum.
+                Aenean porta ex nec hendrerit ullamcorper. Etiam in volutpat erat. Vivamus mattis tristique euismod. Sed
+                eget cursus ex. Donec varius nibh nisl, consectetur aliquam urna tempus at. Duis semper felis velit,
+                quis
+                vehicula neque condimentum sit amet. Vestibulum sed rutrum nisl. Quisque ut fringilla purus. Cras
+                sodales
+                eros ut hendrerit convallis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, at
+                cursus
+                ipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi. Phasellus
+                aliquam
+                vitae nisi et porta. Aliquam quis tincidunt ante. Etiam scelerisque sapien in metus rutrum vestibulum.
+                Aenean porta ex nec hendrerit ullamcorper. Etiam in volutpat erat. Vivamus mattis tristique euismod. Sed
+                eget cursus ex. Donec varius nibh nisl, consectetur aliquam urna tempus at. Duis semper felis velit,
+                quis
+                vehicula neque condimentum sit amet. Vestibulum sed rutrum nisl. Quisque ut fringilla purus. Cras
+                sodales
+                eros ut hendrerit convallis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, at
+                cursus
+                ipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi. Phasellus
+                aliquam
+                vitae nisi et porta. Aliquam quis tincidunt ante. Etiam scelerisque sapien in metus rutrum vestibulum.
+                Aenean porta ex nec hendrerit ullamcorper. Etiam in volutpat erat. Vivamus mattis tristique euismod. Sed
+                eget cursus ex. Donec varius nibh nisl, consectetur aliquam urna tempus at. Duis semper felis velit,
+                quis
+                vehicula neque condimentum sit amet.</p>
         </div>
-    </header>
-    <div class="main" id="two">
-        <div id="lower">
-            About Me
-        </div>
-        <div id="lower-spacer">
-        </div>
-        <img src="assets/images/ProfilePhoto.png" width="206" height="214" alt="My Headshot">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, at cursus
-            ipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi. Phasellus aliquam
-            vitae nisi et porta. Aliquam quis tincidunt ante. Etiam scelerisque sapien in metus rutrum vestibulum.
-            Aenean porta ex nec hendrerit ullamcorper. Etiam in volutpat erat. Vivamus mattis tristique euismod. Sed
-            eget cursus ex. Donec varius nibh nisl, consectetur aliquam urna tempus at. Duis semper felis velit, quis
-            vehicula neque condimentum sit amet. Vestibulum sed rutrum nisl. Quisque ut fringilla purus. Cras sodales
-            eros ut hendrerit convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, at cursus
-            ipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi. Phasellus aliquam
-            vitae nisi et porta. Aliquam quis tincidunt ante. Etiam scelerisque sapien in metus rutrum vestibulum.
-            Aenean porta ex nec hendrerit ullamcorper. Etiam in volutpat erat. Vivamus mattis tristique euismod. Sed
-            eget cursus ex. Donec varius nibh nisl, consectetur aliquam urna tempus at. Duis semper felis velit, quis
-            vehicula neque condimentum sit amet. Vestibulum sed rutrum nisl. Quisque ut fringilla purus. Cras sodales
-            eros ut hendrerit convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend libero eu neque accumsan, at cursus
-            ipsum egestas. Morbi quis ligula eget purus congue molestie quis et leo. Sed ut metus mi. Phasellus aliquam
-            vitae nisi et porta. Aliquam quis tincidunt ante. Etiam scelerisque sapien in metus rutrum vestibulum.
-            Aenean porta ex nec hendrerit ullamcorper. Etiam in volutpat erat. Vivamus mattis tristique euismod. Sed
-            eget cursus ex. Donec varius nibh nisl, consectetur aliquam urna tempus at. Duis semper felis velit, quis
-            vehicula neque condimentum sit amet.</p>
     </div>
     <footer>
     </footer>
