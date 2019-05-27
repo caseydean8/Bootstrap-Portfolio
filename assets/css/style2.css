@@ -1,0 +1,35 @@
+body {
+    background-image: url("crossline-dots.png");
+}
+
+.navbar.navbar-expand-md.bg-light.navbar-light {
+    margin-top: 0px;
+    height: 84px;
+    font-family: 'Montserrat', sans-serif;
+    color:#4aaaa5;
+    text-align: center;
+    background: #ffffff;
+    border: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.container {
+    width: 960px;
+}
+
+.navbar-text {
+    font-size: 33px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    width: 272px;
+    height: 84;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #4aaaa5;
+}
