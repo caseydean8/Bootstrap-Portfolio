@@ -1,8 +1,9 @@
 body {
     background-image: url("crossline-dots.png");
 }
-
+/* .navbar.navbar-expand-md.bg-light.navbar-light  */
 .navbar.navbar-expand-md.bg-light.navbar-light {
+    width: 100%;
     margin-top: 0px;
     /* height: 84px; */
     font-family: 'Montserrat', sans-serif;
@@ -18,7 +19,7 @@ body {
 }
 
 .container {
-    width: 960px;
+    /* width: 960px; */
     font-family: 'Montserrat', sans-serif;
 }
 
