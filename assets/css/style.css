@@ -130,5 +130,19 @@ h2 {
         width: 100%;
     }
 
+    /* form {
+        padding-left: 15px;
+        padding-right: 15px;
+    } */
+
 }
 
+.form-group {
+    color: #4aaaa5;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4aaaa5;
+    border-color: #dddddd;
+}
