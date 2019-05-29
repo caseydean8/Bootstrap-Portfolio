@@ -73,6 +73,7 @@ img {
 }
 
 footer {
+    margin-top: 45px;
     height: 75px;
     background-color: #666666;
     border-top-color: #4aaaa5;
@@ -82,11 +83,14 @@ footer {
     border-style: solid;
     border-top-width: 8px;
     position: sticky;
+    /* bottom: 0; */
+    /* width: 100%; */
   }
 
 h2 {
     color: #4aaaa5;
 }
+
 @media (max-width: 736px) {
     
     /* #navbar {
@@ -99,6 +103,7 @@ h2 {
     }
 
 }
+
 @media (max-width: 414px) {
 
     #navbar {
