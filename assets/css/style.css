@@ -4,8 +4,9 @@
 }
 
 body {
-    background-image: url("crossline-dots.png");
+    background-image: url("/assets/images/robins-in-snow.jpg");
 }
+
 
 .navbar {
     width: 100%;
@@ -28,7 +29,7 @@ body {
 
 .navbar-light .navbar-text {
     font-size: 33px;
-    background-color: #4aaaa5;
+    background-color: #e84a5f;
     color: #ffffff;
     float: left;
     width: 233px;
@@ -36,7 +37,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #4aaaa5;
+    color: #e84a5f;
 }
 
 .navbar-brand {
@@ -52,7 +53,8 @@ body {
 
 #content {
     margin-top: 45px;
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.8);
+    /* background-color: #ffffff; */
     border: #dddddd;
     border-style: solid;
     border-width: 1px;
@@ -65,7 +67,7 @@ body {
     width: 96%;
     height: 2px;
     margin: 0 auto;
-    background-color:#dddddd;
+    background-color:#fecea8;
     margin-bottom: 15px;
 }
 
@@ -86,8 +88,8 @@ img {
 footer {
     /* margin-top: 45px; */
     height: 75px;
-    background-color: #666666;
-    border-top-color: #4aaaa5;
+    background-color: #2a363b;
+    border-top-color: #fecea8;
     border-right: 0;
     border-bottom: 0;
     border-left: 0;
@@ -99,7 +101,18 @@ footer {
   }
 
 h2 {
-    color: #4aaaa5;
+    color: #e84a5f;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color:#ff847c;
+}
+
+a {
+    color: #ff847c;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 
