@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    max-width: 60rem;
+    max-width: 50rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,8 +53,7 @@ body {
 
 #content {
     margin-top: 45px;
-    background-color: rgba(255,255,255,0.8);
-    /* background-color: #ffffff; */
+    background-color: rgba(255,255,255,0.9);
     border: #dddddd;
     border-style: solid;
     border-width: 1px;
