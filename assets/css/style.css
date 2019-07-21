@@ -5,6 +5,10 @@
 
 body {
     background-image: url("robins-in-snow.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
