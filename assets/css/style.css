@@ -9,15 +9,18 @@ body {
 
 
 .navbar {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 0px;
     font-family: 'Montserrat', sans-serif;
     color:#4aaaa5;
     text-align: center;
-    background: #ffffff;
+    background-color: rgba(255,255,255,0.9);
+
+    /* background: #ffffff; */
 }
 
 #navbar {
+    width: 60rem;
     padding-left: 9px;
     padding-right: 0px;
 }
@@ -29,8 +32,7 @@ body {
 
 .navbar-light .navbar-text {
     font-size: 33px;
-    background-color: #e84a5f;
-    color: #ffffff;
+    color: #e84a5f;
     float: left;
     width: 233px;
     height: inherit;
@@ -86,7 +88,7 @@ img {
 
 footer {
     /* margin-top: 45px; */
-    height: 75px;
+    height: 5rem;
     background-color: #2a363b;
     border-top-color: #fecea8;
     border-right: 0;
