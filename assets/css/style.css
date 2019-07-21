@@ -120,6 +120,10 @@ a {
     background-color: transparent;
 }
 
+a:hover {
+    color: #e84a5f;
+}
+
 
 @media (max-width: 736px) {
     
